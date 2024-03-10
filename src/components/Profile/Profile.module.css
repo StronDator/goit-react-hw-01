@@ -1,0 +1,50 @@
+.profileContainer {
+  max-width: 500px;
+  max-height: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileImage {
+  text-align: center;
+  width: 200px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.text {
+  color: gray;
+}
+
+.statsList {
+  display: flex;
+  background-color: lightgrey;
+  border-top: 2px solid gray;
+  border-radius: 0 0 16px 16px;
+}
+
+.statsItem {
+  flex-basis: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid gray;
+}
+
+.statsItem:last-child {
+  border-right: none;
+}
